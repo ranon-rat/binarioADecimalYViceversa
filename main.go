@@ -16,7 +16,7 @@ func aBinario(decimal int) []int {
 	var bits []int
 	resultado := decimal
 	for resultado > 1 {
-		fmt.Println(resultado)
+		
 		bits = append(bits, resultado%2)
 		resultado = int(resultado / 2)
 
